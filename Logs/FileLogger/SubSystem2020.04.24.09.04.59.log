@@ -1,0 +1,6 @@
+24-Apr-2020-05:05:03 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+24-Apr-2020-05:05:03 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page file:///C:/Users/KAPIL/Documents/Application/parent.html
+24-Apr-2020-05:05:04 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //p[text()='Report Scheduler']
+24-Apr-2020-05:05:31 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+24-Apr-2020-05:05:31 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+24-Apr-2020-05:05:33 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

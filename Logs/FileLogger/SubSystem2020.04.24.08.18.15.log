@@ -1,0 +1,5 @@
+24-Apr-2020-04:18:19 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+24-Apr-2020-04:18:20 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page file:///C:/Users/KAPIL/Documents/Application/parent.html
+24-Apr-2020-04:18:20 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+24-Apr-2020-04:19:22 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [TakeScreenShot1] -  ScreenShot Taken : Fill cliams recevied form and verify data in Schedule List table for claims received form.jpeg2020-04-24-19-22
+24-Apr-2020-04:19:22 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

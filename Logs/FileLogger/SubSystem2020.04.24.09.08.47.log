@@ -1,0 +1,11 @@
+24-Apr-2020-05:08:51 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+24-Apr-2020-05:08:52 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page file:///C:/Users/KAPIL/Documents/Application/parent.html
+24-Apr-2020-05:08:52 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+24-Apr-2020-05:09:12 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+24-Apr-2020-05:09:22 [DemoProject1.StepDefination.Fill_cliams_recevied_form_and_verify_data_in_Schedule_List_table] [INFO] [WhenUserEnterTitleRecipient] - Title text enter in the title text box
+24-Apr-2020-05:09:23 [DemoProject1.StepDefination.Fill_cliams_recevied_form_and_verify_data_in_Schedule_List_table] [INFO] [WhenUserEnterTitleRecipient] - Recipient text enter in the Recipient text box
+24-Apr-2020-05:09:23 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //mat-label[@id='subtitle' and text()=' Make Recurring  ']
+24-Apr-2020-05:09:23 [DemoProject1.ComponentHelper.CheckBoxHelper] [INFO] [CheckedCheckBox] -  Click on Check box : By.XPath: //mat-label[@id='subtitle' and text()=' Make Recurring  ']
+24-Apr-2020-05:09:23 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[contains(@id,'mat-input-82')]
+24-Apr-2020-05:10:04 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [TakeScreenShot1] -  ScreenShot Taken : Scenarios for Fill cliams recevied with Make Recurring option checkbox for claims received from.jpeg2020-04-24-10-04.jpeg
+24-Apr-2020-05:10:04 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

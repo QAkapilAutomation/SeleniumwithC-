@@ -1,0 +1,8 @@
+23-Apr-2020-11:34:12 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+23-Apr-2020-11:34:13 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page file:///C:/Users/KAPIL/Documents/Application/parent.html
+23-Apr-2020-11:34:13 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+23-Apr-2020-11:35:01 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+23-Apr-2020-11:35:05 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //mat-select[@id='mat-select-2']
+23-Apr-2020-11:35:05 [DemoProject1.ComponentHelper.LinkHelper] [INFO] [ClickLink] -  Clicking on link : By.XPath: //mat-select[@id='mat-select-2']
+23-Apr-2020-11:35:46 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [TakeScreenShot1] -  ScreenShot Taken : Verify title and Recipientid textbox validation message on the claims received page.jpeg2020-04-23-35-46.jpeg
+23-Apr-2020-11:35:47 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
