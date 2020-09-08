@@ -1,0 +1,4 @@
+06-Aug-2020-06:46:44 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+06-Aug-2020-06:46:45 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://disability-dts-sandbox.primussoft.com/?_token=2
+06-Aug-2020-06:47:28 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [CaptureScreenshoots] -  ScreenShot Taken : Word Template Properties without Attachement.jpeg2020-08-06-47-28
+06-Aug-2020-06:47:28 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

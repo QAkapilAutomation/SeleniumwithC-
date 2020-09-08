@@ -1,0 +1,4 @@
+03-Aug-2020-08:46:25 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+03-Aug-2020-08:46:26 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://disability-dts-sandbox.primussoft.com/?_token=2
+03-Aug-2020-08:47:11 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [CaptureScreenshoots] -  ScreenShot Taken : 3 Merge Fields selection ability from Merge Fields list in Template Body and Subject.jpeg2020-08-03-47-11
+03-Aug-2020-08:47:12 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

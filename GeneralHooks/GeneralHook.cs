@@ -20,6 +20,7 @@ namespace DemoProject1.GeneralHooks
         private static ExtentHtmlReporter extentHtmlReporter;
         private static ExtentTest feature;
         private static ExtentTest scenario;
+        public static ExtentTest test;
         private static string ApplicationDebuggingFolder => @"C:\Users\KAPIL\source\repos\DemoProject1\DemoProject1\Reports\reports";
         public static string LatestResultsReportFolder { get; set; }
         private static ExtentReports ReportManager { get; set; }
@@ -41,6 +42,9 @@ namespace DemoProject1.GeneralHooks
             extentReports.AddSystemInfo("Environment", "QA");
             extentReports.AddSystemInfo("OS", "Window10");
             extentReports.AttachReporter(extentHtmlReporter);
+           test = extentReports.CreateTest("logs" +
+               "");
+
 
         }
 
@@ -49,6 +53,7 @@ namespace DemoProject1.GeneralHooks
         {
             if(null != featureContext)
             {
+               
                 feature = extentReports.CreateTest<Feature>(featureContext.FeatureInfo.Title, featureContext.FeatureInfo.Description);
             }
         }
@@ -60,6 +65,7 @@ namespace DemoProject1.GeneralHooks
             if (null != scenarioContext)
             
             {
+                
                 _scenarioContext = scenarioContext;
                 scenario = feature.CreateNode<Scenario>(scenarioContext.ScenarioInfo.Title, scenarioContext.ScenarioInfo.Description);
             }
@@ -75,6 +81,7 @@ namespace DemoProject1.GeneralHooks
                 case ScenarioBlock.Given:
                     if (_scenarioContext.TestError != null)
                     {
+                        
                         var mediaEntity = ts.CaptureScreenshotsAndReturnModel(_scenarioContext.ScenarioInfo.Title.Trim());
                         scenario.CreateNode<Given>(_scenarioContext.StepContext.StepInfo.Text).Fail(_scenarioContext.TestError.Message + "\n" + _scenarioContext.TestError.StackTrace,mediaEntity);
                     }
@@ -90,6 +97,7 @@ namespace DemoProject1.GeneralHooks
                        
                         var mediaEntity = ts.CaptureScreenshotsAndReturnModel(_scenarioContext.ScenarioInfo.Title.Trim());
                         scenario.CreateNode<When>(_scenarioContext.StepContext.StepInfo.Text).Fail(_scenarioContext.TestError.Message + "\n" + _scenarioContext.TestError.StackTrace,mediaEntity);
+                        
                     }
                     else
                     {

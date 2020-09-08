@@ -1,0 +1,7 @@
+15-Jul-2020-06:46:36 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+15-Jul-2020-06:46:37 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://adminfronendsandbox.s3-website-us-east-1.amazonaws.com/clients/add
+15-Jul-2020-06:46:37 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: (//mat-select)[1]
+15-Jul-2020-06:46:50 [DemoProject1.ComponentHelper.LinkHelper] [INFO] [ClickLink] -  Clicking on link : By.XPath: (//mat-select)[1]
+15-Jul-2020-06:46:51 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: (//span[text()='Arizona'])[2]
+15-Jul-2020-06:47:32 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [CaptureScreenshoots] -  ScreenShot Taken : drop testing.jpeg2020-07-15-47-32
+15-Jul-2020-06:47:32 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

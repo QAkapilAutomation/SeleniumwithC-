@@ -1,5 +1,0 @@
-24-Apr-2020-05:11:49 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
-24-Apr-2020-05:11:49 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page file:///C:/Users/KAPIL/Documents/Application/parent.html
-24-Apr-2020-05:11:49 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-24-Apr-2020-05:12:51 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [TakeScreenShot1] -  ScreenShot Taken : Scenarios for Fill cliams recevied with Make Recurring option checkbox for claims received from.jpeg2020-04-24-12-51.jpeg
-24-Apr-2020-05:12:51 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

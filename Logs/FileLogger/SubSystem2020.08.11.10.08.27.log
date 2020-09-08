@@ -1,0 +1,5 @@
+11-Aug-2020-06:08:29 [DemoProject1.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] - Browser Maximize
+11-Aug-2020-06:08:29 [DemoProject1.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://disability-dts-sandbox.primussoft.com/?_token=2
+11-Aug-2020-06:08:29 [DemoProject1.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@placeholder='Search in Template...']
+11-Aug-2020-06:09:10 [DemoProject1.ComponentHelper.TakeScreenShots] [INFO] [CaptureScreenshoots] -  ScreenShot Taken : List of template searched by Name.jpeg2020-08-11-09-10
+11-Aug-2020-06:09:10 [DemoProject1.BaseClass.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
